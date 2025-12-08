@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project name="CI_Test" dbversion="3">
+    <userdefinedtypes/>
+    <librarynames/>
+    <autoconfig>
+        <automationtype id="8525aaf6e44145f8a3da90d2b387c569" name="" type="Table"/>
+        <automationtype id="5325671ccae84a36ba10006a012f3387" name="API" content=" " type="Editor"/>
+    </autoconfig>
+    <requirements/>
+    <variables/>
+    <keywords>
+        <keywordcategory id="49be54833fd04d82a8fb63e40f376e5d" name="Default">
+            <keyword id="PERFORM Open URL" name="PERFORM Open URL" type="Automatic">
+                <documentation>URL  $URL FIELD$
+</documentation>
+                <parameters>
+                    <parameter id="URL FIELD" name="URL FIELD" type="String" userdefinedtypeid="" direction="Input" default=""/>
+                </parameters>
+                <description>
+                    <step id="b39f133959bd4e39b33b18142297323b" seqno="1">
+                        <action>URL  $URL FIELD$ </action>
+                        <observation></observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent>
+                        <automation type="">
+                            <text></text>
+                            <records>
+                                <record id="de9606dab86b4d959c995c0ced1b0155" seqno="1" refid="1" objectname="URL FIELD" categoryname="Default">
+                                    <content name="Object">URL FIELD</content>
+                                    <content name="Action"></content>
+                                    <content name="Value">$URL FIELD$</content>
+                                    <content name="Run">Skip</content>
+                                    <content name="Comment">URL $URL FIELD$</content>
+                                    <content name="NlpTextPhrase"></content>
+                                </record>
+                            </records>
+                        </automation>
+                    </automationcontent>
+                </keywordautomation>
+            </keyword>
+            <keyword id="CLICK Sign in HYPERLINK Home | ConformIQ SCREEN" name="CLICK Sign in HYPERLINK Home | ConformIQ SCREEN" type="Automatic">
+                <documentation>URL  $URL FIELD$
+URL  $URL FIELD$
+</documentation>
+                <parameters/>
+                <description>
+                    <step id="de296d45f49b459fac1805dd66e6279c" seqno="1">
+                        <action>URL  $URL FIELD$ </action>
+                        <observation></observation>
+                    </step>
+                    <step id="afae18c8ffc54880b64acf79c1981d6c" seqno="2">
+                        <action>URL  $URL FIELD$ </action>
+                        <observation></observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent>
+                        <automation type="">
+                            <text></text>
+                            <records>
+                                <record id="7f45692562a14478b45eb85d017f7bea" seqno="1" refid="1" objectname="Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK" categoryname="Default">
+                                    <content name="Object">//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']</content>
+                                    <content name="Action">click</content>
+                                    <content name="Value"></content>
+                                    <content name="Run">Stop on Fail</content>
+                                    <content name="Comment">Click the Sign in hyperlink in the Home | ConformIQ screen</content>
+                                    <content name="NlpTextPhrase">HYPERLINK</content>
+                                </record>
+                            </records>
+                        </automation>
+                    </automationcontent>
+                </keywordautomation>
+            </keyword>
+            <keyword id="FILL Login | ConformIQ_FORM FORM Login | ConformIQ SCREEN" name="FILL Login | ConformIQ_FORM FORM Login | ConformIQ SCREEN" type="Automatic">
+                <documentation>Enter $login TEXTBOX$ in the login textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form
+Enter $password TEXTBOX$ in the password textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form
+</documentation>
+                <parameters>
+                    <parameter id="login TEXTBOX" name="login TEXTBOX" type="String" userdefinedtypeid="" direction="Input" default=""/>
+                    <parameter id="password TEXTBOX" name="password TEXTBOX" type="String" userdefinedtypeid="" direction="Input" default=""/>
+                </parameters>
+                <description>
+                    <step id="ff87bdcf9e5342b58bd23f0b54c6991e" seqno="1">
+                        <action>Enter $login TEXTBOX$ in the login textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form
+Enter $password TEXTBOX$ in the password textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form</action>
+                        <observation></observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent>
+                        <automation type="">
+                            <text></text>
+                            <records>
+                                <record id="7e8637270b564edca5440df87a749962" seqno="1" refid="1" objectname="Login | ConformIQSCREENLogin | ConformIQ_FORMFORMloginTEXTBOX" categoryname="Default">
+                                    <content name="Object">//input[@id='login' and @name='login']</content>
+                                    <content name="Action">type</content>
+                                    <content name="Value">$login TEXTBOX$</content>
+                                    <content name="Run">Stop on Fail</content>
+                                    <content name="Comment">Enter $login TEXTBOX$ in the login textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form</content>
+                                    <content name="NlpTextPhrase">TEXTBOX</content>
+                                </record>
+                                <record id="d15c1113e4ac47b78b20098b66f07017" seqno="2" refid="2" objectname="Login | ConformIQSCREENLogin | ConformIQ_FORMFORMpasswordTEXTBOX" categoryname="Default">
+                                    <content name="Object">//input[@id='password' and @name='password']</content>
+                                    <content name="Action">type</content>
+                                    <content name="Value">$password TEXTBOX$</content>
+                                    <content name="Run">Stop on Fail</content>
+                                    <content name="Comment">Enter $password TEXTBOX$ in the password textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form</content>
+                                    <content name="NlpTextPhrase">TEXTBOX</content>
+                                </record>
+                            </records>
+                        </automation>
+                    </automationcontent>
+                </keywordautomation>
+            </keyword>
+            <keyword id="CLICK Log in BUTTON Login | ConformIQ SCREEN" name="CLICK Log in BUTTON Login | ConformIQ SCREEN" type="Automatic">
+                <documentation>Enter $login TEXTBOX$ in the login textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form
+Enter $password TEXTBOX$ in the password textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form
+Enter $login TEXTBOX$ in the login textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form
+Enter $password TEXTBOX$ in the password textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form
+</documentation>
+                <parameters/>
+                <description>
+                    <step id="b306d6f3815d4cd7ae1349c54e53c321" seqno="1">
+                        <action>Enter $login TEXTBOX$ in the login textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form
+Enter $password TEXTBOX$ in the password textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form</action>
+                        <observation></observation>
+                    </step>
+                    <step id="1ce4263785fb4ac895a2aa842febeaa9" seqno="2">
+                        <action>Enter $login TEXTBOX$ in the login textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form
+Enter $password TEXTBOX$ in the password textbox in the Login | ConformIQ screen in the Login | ConformIQ_FORM form</action>
+                        <observation></observation>
+                    </step>
+                </description>
+                <keywordautomation>
+                    <automationcontent>
+                        <automation type="">
+                            <text></text>
+                            <records>
+                                <record id="453e8f9bde5e4d22b9009bbedb12ea3e" seqno="1" refid="1" objectname="Login | ConformIQSCREENLog inBUTTON" categoryname="Default">
+                                    <content name="Object">//button[@class='btn btn-primary']</content>
+                                    <content name="Action">click</content>
+                                    <content name="Value"></content>
+                                    <content name="Run">Stop on Fail</content>
+                                    <content name="Comment">Click the Log in button in the Login | ConformIQ screen</content>
+                                    <content name="NlpTextPhrase">BUTTON</content>
+                                </record>
+                            </records>
+                        </automation>
+                    </automationcontent>
+                </keywordautomation>
+            </keyword>
+        </keywordcategory>
+    </keywords>
+    <testsuites>
+        <testsuite id="22c31f9643374682ae104e1df8a38192" name="CI_Test - DC [Creator generated]">
+            <description id="0d5694f666114f55ab517511b404ba35">This test suite has been automatically generated by Conformiq Creator on Mon Dec 08 13:35:38 IST 2025</description>
+            <test id="c08a34db9c2443179cdb3b109757ea3f" name="TC_1 Home | ConformIQTC_1 Login | ConformIQ">
+                <description id="2fc05e481e1c484493bf2f54fc591625">TC_1 Home | ConformIQTC_1 Login | ConformIQ</description>
+                <dataset>
+                    <data id="94c1c86bd0cd476ab21fb4faebe48781" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="252aad6208ea48c2a3d47bc1d425d733" type="keyword" targetid="PERFORM Open URL" source="Creator">
+                    <arguments>
+                        <argument id="ebbd6d32956b406eb351c4ce753def2e" parameterid="URL FIELD">
+                            <argvalues>
+                                <value id="9ec7d97d56b04a5eade2ef93cc2bafa5" name="Default Set">https://conformiq11.odoo.com/</value>
+                            </argvalues>
+                        </argument>
+                    </arguments>
+                </teststep>
+                <teststep id="66d6f42bafc54d288a8da36773a0471f" type="keyword" targetid="CLICK Sign in HYPERLINK Home | ConformIQ SCREEN" source="Creator">
+                    <arguments/>
+                </teststep>
+                <teststep id="d49be0c7aaf0427cbcf7d13fb7ce0b66" type="keyword" targetid="FILL Login | ConformIQ_FORM FORM Login | ConformIQ SCREEN" source="Creator">
+                    <arguments>
+                        <argument id="34318d4915fb4d6087df79b8e72da2cd" parameterid="login TEXTBOX">
+                            <argvalues>
+                                <value id="61918e87ec0f4c7fbf4d5d5e1f75240b" name="Default Set">suhas.deshpande@conformiq.com</value>
+                            </argvalues>
+                        </argument>
+                        <argument id="592d08c9676a45018af09198f7107904" parameterid="password TEXTBOX">
+                            <argvalues>
+                                <value id="09267f69dac74a3d8ce3e85164ecd22c" name="Default Set">Timetravel@1999</value>
+                            </argvalues>
+                        </argument>
+                    </arguments>
+                </teststep>
+                <teststep id="b82195d7bfe34feaa4cb9f81576a0f93" type="keyword" targetid="CLICK Log in BUTTON Login | ConformIQ SCREEN" source="Creator">
+                    <arguments/>
+                </teststep>
+            </test>
+            <test id="cd093ddb858a4aa4b30ae831d401fb49" name="TC_1 Home | ConformIQTC_1 Login | ConformIQ [2]">
+                <description id="c8da39d56ad74065be16308c4c90fb13">TC_1 Home | ConformIQTC_1 Login | ConformIQ [2]</description>
+                <dataset>
+                    <data id="faa16aaf43b74b198fecd30d8c1f24c7" name="Default Set" selected="true"/>
+                </dataset>
+                <teststep id="1caf06bc4c9b499ca4a5a6383b404717" type="keyword" targetid="PERFORM Open URL" source="Creator">
+                    <arguments>
+                        <argument id="03ca2f3b36924cb1a729ea1addcebc0b" parameterid="URL FIELD">
+                            <argvalues>
+                                <value id="d46e3bb9482940b798e42a02a0e89440" name="Default Set">https://conformiq11.odoo.com/</value>
+                            </argvalues>
+                        </argument>
+                    </arguments>
+                </teststep>
+                <teststep id="f03a18791d8a457a90bb6199486b6795" type="keyword" targetid="CLICK Sign in HYPERLINK Home | ConformIQ SCREEN" source="Creator">
+                    <arguments/>
+                </teststep>
+                <teststep id="8969c81737014d06a7832c7d6ff6618c" type="keyword" targetid="FILL Login | ConformIQ_FORM FORM Login | ConformIQ SCREEN" source="Creator">
+                    <arguments>
+                        <argument id="693e6b032d3a40169b8611a1f2569f76" parameterid="login TEXTBOX">
+                            <argvalues>
+                                <value id="34d42961e16f4d438349875fb1ed5d2d" name="Default Set">invalid</value>
+                            </argvalues>
+                        </argument>
+                        <argument id="a05cfe5142434ff19bb3ba8ce343d5a4" parameterid="password TEXTBOX">
+                            <argvalues>
+                                <value id="728ded3d8a5d474a855b9eb3a4a06a6b" name="Default Set">invalid</value>
+                            </argvalues>
+                        </argument>
+                    </arguments>
+                </teststep>
+                <teststep id="0d8e5b170dd0451c9428e3c390c32a59" type="keyword" targetid="CLICK Log in BUTTON Login | ConformIQ SCREEN" source="Creator">
+                    <arguments/>
+                </teststep>
+            </test>
+        </testsuite>
+    </testsuites>
+</project>

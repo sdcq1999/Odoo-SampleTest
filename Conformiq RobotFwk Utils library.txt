@@ -1,0 +1,69 @@
+*** Settings ***
+Documentation     WARNING! This file has been automatically created using the Conformiq <Robot Framework Scripter> scripting backend. PLEASE DO NOT EDIT.
+Library           SeleniumLibrary
+Library           String
+Library           Screenshot
+Library           OperatingSystem
+Library           Collections
+Library           robot.api.logger
+Library           ExcelDataHandler.py
+
+*** Variables ***
+${sFileName}      Object Repository.xlsx
+${sTestDataExcelName}    DCTestData.xlsx
+
+*** Keywords ***
+Load Excel Data
+    [Arguments]    ${SheetName}    ${TestCasename}    ${TestCaseColumn}
+    ${sData}    ExcelDataHandler.Get Test Data Cell
+    ...    ${sTestDataExcelName}
+    ...    ${SheetName}
+    ...    ${TestCasename}
+    ...    ${TestCaseColumn}
+    ...    2
+    Log    Fetched Data: ${sData}    console=yes
+    RETURN    ${sData}
+
+Load Locator Data
+    [Arguments]    ${ObjectSheetName}    ${ObjectName}    ${LocatorColumn}
+    ${sLocator}    ExcelDataHandler.Get Test Data Cell
+    ...    ${sFileName}
+    ...    ${ObjectSheetName}
+    ...    ${ObjectName}
+    ...    ${LocatorColumn}
+    ...    1
+
+    
+    ${sLocator_Type}=    ExcelDataHandler.Get Test Data Cell
+    ...    ${sFileName}
+    ...    ${ObjectSheetName}
+    ...    ${ObjectName}
+    ...    LocatorType
+    ...    1
+    Log    Fetched Locator: ${sLocator_Type}=${sLocator}    console=yes
+    RETURN    ${sLocator_Type}=${sLocator}
+
+Close All Excel Files
+    ExcelDataHandler.Close All Workbooks
+
+# --- NEW KEYWORD: Chains both cleanup actions ---
+Cleanup
+    Close All Excel Files
+    Close All Browsers
+# ---
+
+Send Data To Excel File
+    [Arguments]    ${RowName}    ${ColumnName}    ${Data}
+    Log    WARNING: Excel write functionality is not implemented in ExcelDataHandler.py. Check the original utility file for logic.
+
+Element Should Be
+    [Arguments]    ${Widget}    ${Status}
+    Run Keyword If    "${Status}"==" DISABLED"    Element Should Be Disabled    ${Widget}
+    Run Keyword If    "${Status}"=="ENABLED"    Element Should Be Enabled    ${Widget}
+    Run Keyword If    "${Status}"=="SELECTED"    Element Should Be Selected    ${Widget}
+    Run Keyword If    "${Status}"=="NOT SELECTED"    Element Should Not Be Selected    ${Widget}
+    Run Keyword If    "${Status}"=="VISIBLE"    Wait Until Element Is Visible    ${Widget}
+    Run Keyword If    "${Status}"=="NOT VISIBLE"    Wait Until Element Is Not Visible    ${Widget}
+    Run Keyword If    "${Status}"=="PRESENT"    Element Should Be Visible    ${Widget}
+    Run Keyword If    "${Status}"=="NOT PRESENT"    Page Should Not Contain Element    ${Widget}
+    RETURN

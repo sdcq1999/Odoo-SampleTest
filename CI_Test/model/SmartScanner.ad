@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ad="http://www.conformiq.com/emf/22/ActivityDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <ad:ActivityDiagram xmi:id="qml8499508a51654b6983ddb203f164f829" type="qml8c835431d06545ff856db3dca968eaf4">
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="qmlf9137a820ef34a39a98c01be0dc1bb41" to="qml88da63788b114ea8922fa7e5357401fe" from="qml01693c2bf0b74850b533b34ba44dc5a6"/>
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="qmlc5a882dc3477459dbed9d94280ba70b2" to="qmlbd0b790dac27496ab2fcc5a38827b030" from="qml88da63788b114ea8922fa7e5357401fe"/>
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="qml3f8820b6b5fb4b8d80d461b7bafea4fb" to="qml7fd0702e73f24326b5f2dffbf4f345f3" from="qmlbd0b790dac27496ab2fcc5a38827b030"/>
+    <nodes xmi:type="ad:InitialNode" xmi:id="qml01693c2bf0b74850b533b34ba44dc5a6" name="Initial Node" controlFlowsOut="qmlf9137a820ef34a39a98c01be0dc1bb41"/>
+    <nodes xmi:type="ad:ActivityNode" xmi:id="qml88da63788b114ea8922fa7e5357401fe" name="Home | ConformIQ" controlFlowsIn="qmlf9137a820ef34a39a98c01be0dc1bb41" controlFlowsOut="qmlc5a882dc3477459dbed9d94280ba70b2">
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="qmle330b98e233941dcaee58dff951ce80f" methodRef="qmlc10c07c9ced44995811019614337164b_Custom_Input_qmlff3c63c3635445de9dfd4bcd8d1435fd">
+        <inputArgs xmi:type="ad:Expression" xmi:id="qml7f039abb7d4447efb364b2a9494a41fb">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="qml40f9042938f24748aabfefda29333894" value="URL"/>
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="qml194c4c6277f443e69731ea7b1b9a9e3e">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="qmla7c856437f0047598b2c2c648b73bec3" qmlId="qmld0ee11b9e45f4fdb9cf6e2fe2df19c9f">
+            <fields xmi:type="ad:ValueField" xmi:id="qml6a2105129dec48789c772e6848979da6" fieldRef="qmlcb667291559e4eec8d4f1b9ceb571257">
+              <possibleValues xmi:type="ad:Expression" xmi:id="qmlc14899c1bf114efb9ca6e16692956655">
+                <clause xmi:type="ad:StringLiteralClause" xmi:id="qmld92b266638f242a19069dfbef32c77f0" value="https://conformiq11.odoo.com/"/>
+              </possibleValues>
+            </fields>
+            <type xmi:type="ad:CustomTypeRef" xmi:id="qml7bcb56e1a5ec4b9e895e13e61201e8a0" idRef="qmlc10c07c9ced44995811019614337164b"/>
+          </clause>
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="qml1cb0d242357f460397e7e0e23a68ce1e" methodRef="qmla34ea35b33664685b6f9d9f8ad537a7e_Click_Action_qmle80412b83df640f9aaa189fe0b6f0073"/>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="qml971fd908f96044b19f040b16dbea52d9" methodRef="name_tag">
+        <inputArgs xmi:type="ad:Expression" xmi:id="qmld1e7f3bbe08c433fbb147ef8a3fd5c55">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="qml03334fc604b5456c9014de1882edab57" value="TC_1 Home | ConformIQ"/>
+        </inputArgs>
+      </actionInvocations>
+    </nodes>
+    <nodes xmi:type="ad:ActivityNode" xmi:id="qmlbd0b790dac27496ab2fcc5a38827b030" name="Login | ConformIQ" controlFlowsIn="qmlc5a882dc3477459dbed9d94280ba70b2" controlFlowsOut="qml3f8820b6b5fb4b8d80d461b7bafea4fb">
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="qml6fc80813da644dc9b4989169c504e35a" methodRef="qml7b0a58b8897a4e26970a0fd2cfd30be0_Fill_Form_Action">
+        <inputArgs xmi:type="ad:Expression" xmi:id="qml0c98ee6ed6064cbdaeecce35c6315fb4">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="qml4dd76b3bcb734921adfdd88d25a3a5ad" qmlId="qml908d767ec95d48b98bfee984d5126ca7" valueKind="List">
+            <possibleValues xmi:type="ad:Expression" xmi:id="qmlde3ab448d2f64b76b980287a7c10debb">
+              <clause xmi:type="ad:InlineValueClause" xmi:id="qml33ecdf84489a4ae8808c6b3efbfe0a43" name="Item " qmlId="qml52b8a722e87c44e19e48052386feb2e8">
+                <fields xmi:type="ad:ValueField" xmi:id="qml153229c1f6ce47258269c7f185384100" fieldRef="qmlb84355f8be214e2c939e70c153eb8714">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="qml19872763a144459ba66aa1600a71432b">
+                    <clause xmi:type="ad:StringLiteralClause" xmi:id="_8qpSQNIVEfC_dOwU2xth8w" value="suhas.deshpande@conformiq.com"/>
+                  </possibleValues>
+                </fields>
+                <fields xmi:type="ad:ValueField" xmi:id="qml03964a8eb3ed4dd8af87c14af6657857" fieldRef="qml81333bc6715e47399be93e448f8116d1">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="qml67ca42427b6148229ced6c5ac9b3c3fd">
+                    <clause xmi:type="ad:StringLiteralClause" xmi:id="_9tX6kNIVEfC_dOwU2xth8w" value="Timetravel@1999"/>
+                  </possibleValues>
+                </fields>
+                <type xmi:type="ad:CustomTypeRef" xmi:id="qml6db5dc41c30a42e39456e48db544fb49" idRef="qml7b0a58b8897a4e26970a0fd2cfd30be0"/>
+              </clause>
+            </possibleValues>
+            <possibleValues xmi:type="ad:Expression" xmi:id="_-N-GMNIVEfC_dOwU2xth8w">
+              <clause xmi:type="ad:InlineValueClause" xmi:id="_-N-GMdIVEfC_dOwU2xth8w" name="Item  2" qmlId="qmle0136a73cf1e4f2cadb22956cc5f1622">
+                <fields xmi:type="ad:ValueField" xmi:id="_-N-GMtIVEfC_dOwU2xth8w" fieldRef="qmlb84355f8be214e2c939e70c153eb8714">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_-N-GM9IVEfC_dOwU2xth8w">
+                    <clause xmi:type="ad:StringLiteralClause" xmi:id="_-m5jkNIVEfC_dOwU2xth8w" value="invalid"/>
+                  </possibleValues>
+                </fields>
+                <fields xmi:type="ad:ValueField" xmi:id="_-N-GNdIVEfC_dOwU2xth8w" fieldRef="qml81333bc6715e47399be93e448f8116d1">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_-N-GNtIVEfC_dOwU2xth8w">
+                    <clause xmi:type="ad:StringLiteralClause" xmi:id="__DAQwNIVEfC_dOwU2xth8w" value="invalid"/>
+                  </possibleValues>
+                </fields>
+                <type xmi:type="ad:CustomTypeRef" xmi:id="_-N-GONIVEfC_dOwU2xth8w" idRef="qml7b0a58b8897a4e26970a0fd2cfd30be0"/>
+              </clause>
+            </possibleValues>
+            <type xmi:type="ad:CustomTypeRef" xmi:id="qml3fd95257eaf34213b6d7cb4da384cda3" idRef="qml7b0a58b8897a4e26970a0fd2cfd30be0"/>
+          </clause>
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="qmladf407d98e6949cf85fc6abfc24dccc3" methodRef="name_tag">
+        <inputArgs xmi:type="ad:Expression" xmi:id="qml4fa09a847cef403d98bf171ab6336f8b">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="qml1374c1f6cd6040a5aef5de2aa392104c" value="TC_1 Login | ConformIQ"/>
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="qmldba0461b09bc49a498d00fce8aa634af" methodRef="qmld914e13127b147159a6aef9bd0bae008_Click_Action_qml08c5f98da8014cc9b84d264e1e3a2d53"/>
+    </nodes>
+    <nodes xmi:type="ad:FinalNode" xmi:id="qml7fd0702e73f24326b5f2dffbf4f345f3" name="End" controlFlowsIn="qml3f8820b6b5fb4b8d80d461b7bafea4fb"/>
+  </ad:ActivityDiagram>
+  <notation:Diagram xmi:id="qmld91a9b4090ba4bbe8213cd28732f0396" type="ConformiqActivityChart" element="qml8499508a51654b6983ddb203f164f829" name="SmartScanner.ad" measurementUnit="Pixel"/>
+</xmi:XMI>

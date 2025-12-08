@@ -1,0 +1,69 @@
+[26576:26832:1206/013541.470:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[26576:26832:1206/013541.718:INFO:download_manager_delegate_impl.cc(360)] Rejected download of blob:https://cc-qa.conformiq.com/205784a1-8387-4f41-864a-3bae68b24d0c
+[26576:26832:1206/013541.724:INFO:download_manager_delegate_impl.cc(360)] Rejected download of blob:https://conformiq11.odoo.com/a5c5310d-8aad-4038-9c27-fca80c2979b4
+[16148:27420:1206/013542.068:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[26576:11764:1206/013544.987:WARNING:browser_info.cc(362)] Returning a speculative frame for [6,9]
+[26576:26832:1206/013545.233:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed, version 3.4.1", source: https://www.conformiq.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1 (2)
+[26576:26832:1206/013545.236:INFO:CONSOLE(1)] "Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.", source: https://www.conformiq.com/wp-content/cache/autoptimize/js/autoptimize_single_d7e0130fa05ab721670e4ef840e1096b.js?ver=1.0.0 (1)
+[26576:26832:1206/013545.241:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read properties of null (reading 'parentNode')", source: data:text/javascript;base64,KGZ1bmN0aW9uKCl7dmFyIGZpbGU9WyJodHRwczpcL1wvd3d3LmNvbmZvcm1pcS5jb21cL3dwLWNvbnRlbnRcL2V0LWNhY2hlXC8yOVwvZXQtZGl2aS1keW5hbWljLXRiLTIyLXRiLTI1MC0yOS1sYXRlLmNzcyJdO3ZhciBoYW5kbGU9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2Rpdmktc3R5bGUtcGFyZW50LWlubGluZS1pbmxpbmUtY3NzJyk7dmFyIGxvY2F0aW9uPWhhbmRsZS5wYXJlbnROb2RlO2lmKDA9PT1kb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdsaW5rW2hyZWY9IicrZmlsZSsnIl0nKS5sZW5ndGgpe3ZhciBsaW5rPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2xpbmsnKTtsaW5rLnJlbD0nc3R5bGVzaGVldCc7bGluay5pZD0nZXQtZHluYW1pYy1sYXRlLWNzcyc7bGluay5ocmVmPWZpbGU7bG9jYXRpb24uaW5zZXJ0QmVmb3JlKGxpbmssaGFuZGxlLm5leHRTaWJsaW5nKTt9fSkoKTs= (1)
+[26576:26832:1206/013545.303:WARNING:browser_info.cc(362)] Returning a speculative frame for [6,9]
+[26576:26832:1206/013545.303:WARNING:browser_info.cc(362)] Returning a speculative frame for [6,9]
+[26576:26832:1206/013545.303:WARNING:browser_info.cc(362)] Returning a speculative frame for [6,9]
+[26576:26832:1206/013545.303:WARNING:browser_info.cc(362)] Returning a speculative frame for [6,9]
+[26576:11764:1206/013545.624:WARNING:browser_info.cc(362)] Returning a speculative frame for [7,10]
+[26576:26832:1206/013545.660:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://www.conformiq.com/ (11)
+[26576:26832:1206/013545.698:WARNING:browser_info.cc(362)] Returning a speculative frame for [6,12]
+[26576:26832:1206/013545.698:WARNING:browser_info.cc(362)] Returning a speculative frame for [6,12]
+[26576:26832:1206/013545.698:WARNING:browser_info.cc(362)] Returning a speculative frame for [6,12]
+[26576:26832:1206/013545.698:WARNING:browser_info.cc(362)] Returning a speculative frame for [6,12]
+[26576:26832:1206/013545.942:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://www.conformiq.com/ (11)
+[26576:11764:1206/013545.944:WARNING:browser_info.cc(362)] Returning a speculative frame for [8,12]
+[26576:26832:1206/013545.962:WARNING:browser_info.cc(362)] Returning a speculative frame for [7,10]
+[26576:26832:1206/013545.962:WARNING:browser_info.cc(362)] Returning a speculative frame for [7,10]
+[26576:26832:1206/013545.962:WARNING:browser_info.cc(362)] Returning a speculative frame for [7,10]
+[26576:26832:1206/013545.962:WARNING:browser_info.cc(362)] Returning a speculative frame for [7,10]
+[26576:26832:1206/013545.966:WARNING:browser_info.cc(362)] Returning a speculative frame for [8,12]
+[26576:26832:1206/013545.966:WARNING:browser_info.cc(362)] Returning a speculative frame for [8,12]
+[26576:26832:1206/013545.966:WARNING:browser_info.cc(362)] Returning a speculative frame for [8,12]
+[26576:26832:1206/013545.966:WARNING:browser_info.cc(362)] Returning a speculative frame for [8,12]
+[26576:26832:1206/013546.002:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://www.conformiq.com/ (11)
+[26576:26832:1206/013546.210:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://www.conformiq.com/ (11)
+[26576:26832:1206/013546.210:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://www.conformiq.com/ (11)
+[26576:26832:1206/013546.585:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://www.conformiq.com/ (11)
+[26576:26832:1206/013546.885:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://www.conformiq.com/ (11)
+[26576:26832:1206/013546.885:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://www.conformiq.com/ (11)
+[26576:26832:1206/013547.180:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://www.conformiq.com/ (11)
+[26576:26832:1206/013547.312:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[26576:26832:1206/013547.320:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[26576:26832:1206/013547.403:INFO:CONSOLE(9)] "Parent URL: ", source: https://www.conformiq.com/ (9)
+[26576:26832:1206/013547.403:INFO:CONSOLE(10)] "Current URL: https://www.conformiq.com/", source: https://www.conformiq.com/ (10)
+[26576:26832:1206/013547.403:INFO:CONSOLE(9)] "Parent URL: ", source: https://www.conformiq.com/ (9)
+[26576:26832:1206/013547.403:INFO:CONSOLE(10)] "Current URL: https://www.conformiq.com/", source: https://www.conformiq.com/ (10)
+[26576:26832:1206/013547.403:INFO:CONSOLE(9)] "Parent URL: ", source: https://www.conformiq.com/ (9)
+[26576:26832:1206/013547.403:INFO:CONSOLE(10)] "Current URL: https://www.conformiq.com/", source: https://www.conformiq.com/ (10)
+[26576:26832:1206/013547.403:INFO:CONSOLE(9)] "Parent URL: ", source: https://www.conformiq.com/ (9)
+[26576:26832:1206/013547.403:INFO:CONSOLE(10)] "Current URL: https://www.conformiq.com/", source: https://www.conformiq.com/ (10)
+[26576:26832:1206/013547.403:INFO:CONSOLE(9)] "Parent URL: ", source: https://www.conformiq.com/ (9)
+[26576:26832:1206/013547.411:INFO:CONSOLE(10)] "Current URL: https://www.conformiq.com/", source: https://www.conformiq.com/ (10)
+[26576:26832:1206/013547.411:INFO:CONSOLE(9)] "Parent URL: ", source: https://www.conformiq.com/ (9)
+[26576:26832:1206/013547.411:INFO:CONSOLE(10)] "Current URL: https://www.conformiq.com/", source: https://www.conformiq.com/ (10)
+[26576:26832:1206/013547.411:INFO:CONSOLE(9)] "Parent URL: ", source: https://www.conformiq.com/ (9)
+[26576:26832:1206/013547.411:INFO:CONSOLE(10)] "Current URL: https://www.conformiq.com/", source: https://www.conformiq.com/ (10)
+[26576:26832:1206/013547.411:INFO:CONSOLE(9)] "Parent URL: ", source: https://www.conformiq.com/ (9)
+[26576:26832:1206/013547.411:INFO:CONSOLE(10)] "Current URL: https://www.conformiq.com/", source: https://www.conformiq.com/ (10)
+[26576:26832:1206/013547.411:INFO:CONSOLE(9)] "Parent URL: ", source: https://www.conformiq.com/ (9)
+[26576:26832:1206/013547.411:INFO:CONSOLE(10)] "Current URL: https://www.conformiq.com/", source: https://www.conformiq.com/ (10)
+[26576:26832:1206/013547.430:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://www.conformiq.com/ (11)
+[26576:26832:1206/013556.510:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://conformiq11.odoo.com/ (11)
+[26576:26832:1206/013600.818:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://conformiq11.odoo.com/ (11)
+[26576:26832:1206/013602.756:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://conformiq11.odoo.com/ (11)
+[26576:26832:1206/013610.748:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://conformiq11.odoo.com/web/login (11)
+[26576:26832:1206/013612.145:WARNING:content_autofill_driver.cc(215)] Skipped Autofill message for inactive frame
+[26576:26832:1206/013612.145:WARNING:content_autofill_driver.cc(215)] Skipped Autofill message for inactive frame
+[26576:26832:1206/013612.477:WARNING:content_autofill_driver.cc(215)] Skipped Autofill message for inactive frame
+[26576:26832:1206/013612.477:WARNING:content_autofill_driver.cc(215)] Skipped Autofill message for inactive frame
+[26576:26832:1206/013612.477:WARNING:content_autofill_driver.cc(215)] Skipped Autofill message for inactive frame
+[26576:26832:1206/013612.477:WARNING:content_autofill_driver.cc(215)] Skipped Autofill message for inactive frame
+[26576:26832:1206/013621.244:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://conformiq11.odoo.com/odoo (11)
+[26576:26832:1206/013622.243:INFO:CONSOLE(594)] "click .o_app[data-menu-xmlid="crm.crm_menu_root"]", source: https://conformiq11.odoo.com/web/assets/aa724fe/web_tour.interactive.min.js (594)
+[26576:26832:1206/013623.316:INFO:CONSOLE(11)] "Recording script cleaned up", source: https://conformiq11.odoo.com/odoo (11)

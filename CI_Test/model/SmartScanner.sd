@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/15/StructureDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="qml553ef65a93a744f69217b87f28b1140e" type="Dsl" name="SmartScanner.sd" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="qml28ea15d2fdd74a4f94b2c68066d0c8b5" type="2006">
+    <children xmi:type="notation:DecorationNode" xmi:id="qmlbaff97c218794b9ea57348b64910c291" type="5048"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="qml86df3debe9c74cbdbcd32775b9098362" type="5053"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="qmlb7312c9e83e14dc68cd46e1c2c00498c"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="qml470dee9892e6469d8a1e22391e641014"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="qml0c955d3f438c490e96afb8241b0350e7"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:ExternalInterface" href="SmartScanner.sl#qmlff3c63c3635445de9dfd4bcd8d1435fd"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="qml8780c3ee4c2d4fc9a6db6ea4930b0f26"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="qml1e6d1e5eda5a459186f75f56896e985d" type="2007">
+    <children xmi:type="notation:DecorationNode" xmi:id="qml5b581e1597aa411abf94f075e42943ab" type="5082"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="qmlc59f076f39474c3bb199c5d6a7da7194" type="7032">
+      <children xmi:type="notation:Node" xmi:id="qml3524a5e9782c426f93cf210d499c5b41" type="3054">
+        <children xmi:type="notation:DecorationNode" xmi:id="qml735d983bf97949099352b2bf0896dd33" type="5078"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="qml4a0a7aba4de4452aa5ef4e5ac27d17d8" type="5079"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="qmle9c951a4e9bb4845b7a1e337ebd782da"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="qml147ac185febc44b1a8b86137fef4f42d"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="qml7ce8b55014d04446b136bd33fe926525"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:PrimitiveField" href="SmartScanner.sl#qmlcb667291559e4eec8d4f1b9ceb571257"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="qml706517ad2873427dad0410b95eddfc38"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="qml9a6167b7666144dd8742f98d5043ec10"/>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="qml949261977fdd454d9a7f66f581421edc"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="qml096140e003e24c26bea6d78aa2d806aa"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="qml58ca3e025a98432cbaa04ac37d7b5185"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="qml42db79b19c2541d1b46104e5984997d4"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:CustomAction" href="SmartScanner.sl#qmlc10c07c9ced44995811019614337164b"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="qml4bcdbaeb985e4b64885324684f940804" x="178"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="qmlaa25feb1b1824cd6bed6df6c5bf0f639" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="qml4e4b94798e274da6b9900196f76c7609" type="5037"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="qml274b5f9189fe41b7b69da45d224763da" type="7003">
+      <children xmi:type="notation:Node" xmi:id="qml1a89e608f0af4981a90e6bdcf5a76b55" type="3015">
+        <children xmi:type="notation:DecorationNode" xmi:id="qmla21073ced2294d76b0ed5daceace6dea" type="5017"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="qml0aa8e82811b84fb8846a19214ba6eed6"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="qml8c1bd3dd90ba487bbe200307b4b78036"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="qmldd7a8e033930431b8bb4a63df52b5668"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Hyperlink" href="SmartScanner.sl#qmla34ea35b33664685b6f9d9f8ad537a7e"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="qmlcdbf49f082534da7a49c6c3f6ce0ae7a"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="qmld4f6cdf033024b299c859a06d550f7a1"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="qml2d76de66d6a2440fb550e0d43f6651be"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="qml7a164d98bd324d98ba65027faa175a4f"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="qmld21b3f2327c640ee9fabd9f0f08b7aa9"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="SmartScanner.sl#qmle80412b83df640f9aaa189fe0b6f0073"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="qml5599b3ffadf44fadbc3b04ed18d23e17" x="350"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="qml22562ca081944274ae7fa5fd108ef54b" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="qmlab40ede5f9fc4fd99a4070168291f4c5" type="5037"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="qml63e4af1b7a914cd9939b9ae62d6272ea" type="7003">
+      <children xmi:type="notation:Node" xmi:id="qml8558ef5bbd88444291bb6005ab4fc05b" type="3007">
+        <children xmi:type="notation:DecorationNode" xmi:id="qmlae2a85175c434779bbfb8f32d0bd19b5" type="5015"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="qmldabf72abc4944548b291e1af74ecd8d9" type="7004">
+          <children xmi:type="notation:Node" xmi:id="qmlca255ab2690b45ee9d3da45d9eac6e28" type="3010">
+            <children xmi:type="notation:DecorationNode" xmi:id="qml8c2ba848a2784b6d9302380d6c215c41" type="5011"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="qml7b3bf0b2cedc4fd49c18b23480aacd8f" type="5058"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="qml1c41a7eecf684dd5bfa3fd1748962186"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="qml43751ec91e2340a28f4294e254b0ab57"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="qml3e3edf77783e4fd88278b0f1513c3299"/>
+            <element xmi:type="com.conformiq.creator.structure.dsl:TextBox" href="SmartScanner.sl#qmlb84355f8be214e2c939e70c153eb8714"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="qml622936a171ba4babb025a36f5b17b74a"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="qml3aa6b09bf3384eb1af2259418df8826b" type="3010">
+            <children xmi:type="notation:DecorationNode" xmi:id="qmle8b85d8704db4033a2621e14fbeb1b63" type="5011"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="qmlcde07f3c69894403930cd33a7343da82" type="5058"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="qmla2b0c1c1da574c05a5597821ed05ea77"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="qml19602d2398de48ef90046ca5dc862c59"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="qml8a4adaaefe2f42448f535643cb9a7307"/>
+            <element xmi:type="com.conformiq.creator.structure.dsl:TextBox" href="SmartScanner.sl#qml81333bc6715e47399be93e448f8116d1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="qml151bcd86dd7546f39559ed851e221977" x="184"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="qmlb0f4077f5d1241179d98d04eb5a86d4f"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="qml2e1ff658a60e4dd2900661a608ba1533"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="qml51d5b105f0c349e18572f061f2cc0d9c"/>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="qml868b755ffa8242d3b577bfb765419c81"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Form" href="SmartScanner.sl#qml7b0a58b8897a4e26970a0fd2cfd30be0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="qml164fa70837cb4dcc9fdb502f9ef9a165"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="qmlf66bfe7c7ce14ce098d1a378f667f01c" type="3014">
+        <children xmi:type="notation:DecorationNode" xmi:id="qml371358d179854e319eaf7ba293223900" type="5016"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="qmlce6b81932aff44da8a14dd1d6459596b"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="qml150e4526b4b54c8794696772fc42fada"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="qml978c67ddf64740c094f0926c6fd2c9df"/>
+        <element xmi:type="com.conformiq.creator.structure.dsl:Button" href="SmartScanner.sl#qmld914e13127b147159a6aef9bd0bae008"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="qml8d8d236cbaa54955866afcc07b41ece7" x="412"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="qmlfe8633c6fd3f48408dc314f319b4c05c"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="qmla346316184d34cd9b2f1a741b3b304f4"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="qml79fee1ff23cb43f0bd1a95ce36cdcb0b"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="qmldffb8dbb84c24f9ca29c9eb081fd37be"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="SmartScanner.sl#qml08c5f98da8014cc9b84d264e1e3a2d53"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="qml8c6faca9d1b34954b41ffb1211eeb723" x="567"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="qml216da792c8c04ad09693a78fc285b248" type="Note" description="Scanned on 2025-12-06 01:36&#xA;Source:&#xA;  (SD are created from Web Element Scan)&#xA;" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="qml337a6658fbf249f9a5bdc73466aaebe4" type="DiagramName"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="qml35a165fab0b74a23b2430d8fdfb8f0f2" type="Description"/>
+    <styles xmi:type="notation:TextStyle" xmi:id="qml40e6ef70fb944a5c8cf758eb2d4c7128"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="qmle42d46cc4ae84e419e786377743a5678"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="qmla445b0aca77f45d594661994c48ce621" x="1102"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="qml3e3e7f2fa9ad4ed390f6c3b7c7b3fbe2"/>
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="SmartScanner.sl#/"/>
+</notation:Diagram>

@@ -1,0 +1,89 @@
+{
+    "screens": [
+        {
+            "currentURL": "https://conformiq11.odoo.com/",
+            "parent": "",
+            "scrName": "Home | ConformIQ",
+            "sdElements": [{
+                "xpath": "//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']",
+                "data": "",
+                "name": "Sign in",
+                "options": [],
+                "elementType": "link",
+                "attributeAndValues": {
+                    "Parent": "",
+                    "src": "",
+                    "Select": "false",
+                    "name": "",
+                    "id": "",
+                    "href": "/web/login",
+                    "value": "",
+                    "class": "o_nav_link_btn nav-link border px-3",
+                    "URL": "https://conformiq11.odoo.com/"
+                }
+            }]
+        },
+        {
+            "currentURL": "https://conformiq11.odoo.com/web/login",
+            "parent": "",
+            "scrName": "Login | ConformIQ",
+            "sdElements": [
+                {
+                    "xpath": "//input[@id='login' and @name='login']",
+                    "data": "",
+                    "name": "login",
+                    "options": [],
+                    "elementType": "textbox",
+                    "attributeAndValues": {
+                        "Parent": "",
+                        "src": "",
+                        "Select": "false",
+                        "name": "login",
+                        "id": "login",
+                        "href": "",
+                        "value": "",
+                        "class": "form-control",
+                        "URL": "https://conformiq11.odoo.com/web/login"
+                    }
+                },
+                {
+                    "xpath": "//input[@id='password' and @name='password']",
+                    "data": "",
+                    "name": "password",
+                    "options": [],
+                    "elementType": "textbox",
+                    "attributeAndValues": {
+                        "Parent": "",
+                        "src": "",
+                        "Select": "false",
+                        "name": "password",
+                        "id": "password",
+                        "href": "",
+                        "value": "",
+                        "class": "form-control",
+                        "URL": "https://conformiq11.odoo.com/web/login"
+                    }
+                },
+                {
+                    "xpath": "//button[@class='btn btn-primary']",
+                    "data": "",
+                    "name": "Log in",
+                    "options": [],
+                    "elementType": "button",
+                    "attributeAndValues": {
+                        "Parent": "",
+                        "src": "",
+                        "Select": "false",
+                        "name": "",
+                        "id": "",
+                        "href": "",
+                        "value": "",
+                        "class": "btn btn-primary",
+                        "URL": "https://conformiq11.odoo.com/web/login"
+                    }
+                }
+            ]
+        }
+    ],
+    "name": "ScannedElements"
+}

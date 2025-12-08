@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?conformiq-designer-gen 1765181117401?><metadata creator_asset_version="9">
+  <mapping key="checkpoint-group:ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qml88da63788b114ea8922fa7e5357401fe">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Diagram 'SmartScanner' . Activity 'Home | ConformIQ'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-action-invoc</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qmlbd0b790dac27496ab2fcc5a38827b030">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Diagram 'SmartScanner' . Activity 'Login | ConformIQ'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-action-invoc</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:ad-control-flow.qml8499508a51654b6983ddb203f164f829">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Diagram 'SmartScanner'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-control-flow</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:ad-node.qml8499508a51654b6983ddb203f164f829">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Diagram 'SmartScanner'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-node</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:custom.data.ad qml8499508a51654b6983ddb203f164f829 qml88da63788b114ea8922fa7e5357401fe">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Diagram 'SmartScanner' . Activity 'Home | ConformIQ'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">data</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:custom.data.ad qml8499508a51654b6983ddb203f164f829 qml88da63788b114ea8922fa7e5357401fe.invocation qmle330b98e233941dcaee58dff951ce80f">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Action #1: OU: "URL"</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">custom.data.ad qml8499508a51654b6983ddb203f164f829 qml88da63788b114ea8922fa7e5357401fe</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:custom.data.ad qml8499508a51654b6983ddb203f164f829 qmlbd0b790dac27496ab2fcc5a38827b030">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Diagram 'SmartScanner' . Activity 'Login | ConformIQ'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">data</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:custom.data.ad qml8499508a51654b6983ddb203f164f829 qmlbd0b790dac27496ab2fcc5a38827b030.invocation qml6fc80813da644dc9b4989169c504e35a">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Action #1: FF: 'Login | ConformIQ_FORM' Form</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">custom.data.ad qml8499508a51654b6983ddb203f164f829 qmlbd0b790dac27496ab2fcc5a38827b030</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint-group:custom.data.ad qml8499508a51654b6983ddb203f164f829 qmlbd0b790dac27496ab2fcc5a38827b030.invocation qml6fc80813da644dc9b4989169c504e35a.matching qml0c98ee6ed6064cbdaeecce35c6315fb4">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Values matching Input Constraint</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">custom.data.ad qml8499508a51654b6983ddb203f164f829 qmlbd0b790dac27496ab2fcc5a38827b030.invocation qml6fc80813da644dc9b4989169c504e35a</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qml88da63788b114ea8922fa7e5357401fe.qml1cb0d242357f460397e7e0e23a68ce1e">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-action-invoc</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Action #2: CL: 'Sign in' Hyperlink</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qml1cb0d242357f460397e7e0e23a68ce1e</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Action #2: CL: 'Sign in' Hyperlink</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qml88da63788b114ea8922fa7e5357401fe</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qml88da63788b114ea8922fa7e5357401fe.qml971fd908f96044b19f040b16dbea52d9">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-action-invoc</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Action #3: NT: "TC_1 Home | ConformIQ"</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qml971fd908f96044b19f040b16dbea52d9</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Action #3: NT: "TC_1 Home | ConformIQ"</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qml88da63788b114ea8922fa7e5357401fe</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qml88da63788b114ea8922fa7e5357401fe.qmle330b98e233941dcaee58dff951ce80f">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-action-invoc</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Action #1: OU: "URL"</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qmle330b98e233941dcaee58dff951ce80f</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Action #1: OU: "URL"</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qml88da63788b114ea8922fa7e5357401fe</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qmlbd0b790dac27496ab2fcc5a38827b030.qml6fc80813da644dc9b4989169c504e35a">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-action-invoc</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Action #1: FF: 'Login | ConformIQ_FORM' Form</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qml6fc80813da644dc9b4989169c504e35a</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Action #1: FF: 'Login | ConformIQ_FORM' Form</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qmlbd0b790dac27496ab2fcc5a38827b030</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qmlbd0b790dac27496ab2fcc5a38827b030.qmladf407d98e6949cf85fc6abfc24dccc3">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-action-invoc</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Action #2: NT: "TC_1 Login | ConformIQ"</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qmladf407d98e6949cf85fc6abfc24dccc3</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Action #2: NT: "TC_1 Login | ConformIQ"</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qmlbd0b790dac27496ab2fcc5a38827b030</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qmlbd0b790dac27496ab2fcc5a38827b030.qmldba0461b09bc49a498d00fce8aa634af">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-action-invoc</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Action #3: CB: 'Log in' Button</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qmldba0461b09bc49a498d00fce8aa634af</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Action #3: CB: 'Log in' Button</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-action-invoc.qml8499508a51654b6983ddb203f164f829.qmlbd0b790dac27496ab2fcc5a38827b030</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-control-flow.qml8499508a51654b6983ddb203f164f829.qml3f8820b6b5fb4b8d80d461b7bafea4fb">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-control-flow</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Activity 'Login | ConformIQ' -&gt; Return 'End'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qml3f8820b6b5fb4b8d80d461b7bafea4fb</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Activity 'Login | ConformIQ' -&gt; Return 'End'</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">ad-control-flow.source</qmlstring>
+        <qmlstring type="String">ad-node.qml8499508a51654b6983ddb203f164f829.qmlbd0b790dac27496ab2fcc5a38827b030</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">ad-control-flow.target</qmlstring>
+        <qmlstring type="String">ad-node.qml8499508a51654b6983ddb203f164f829.qml7fd0702e73f24326b5f2dffbf4f345f3</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">ad-control-flow.label</qmlstring>
+        <qmlstring type="String"/>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-control-flow.qml8499508a51654b6983ddb203f164f829</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-control-flow.qml8499508a51654b6983ddb203f164f829.qmlc5a882dc3477459dbed9d94280ba70b2">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-control-flow</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Activity 'Home | ConformIQ' -&gt; Activity 'Login | ConformIQ'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qmlc5a882dc3477459dbed9d94280ba70b2</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Activity 'Home | ConformIQ' -&gt; Activity 'Login | ConformIQ'</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">ad-control-flow.source</qmlstring>
+        <qmlstring type="String">ad-node.qml8499508a51654b6983ddb203f164f829.qml88da63788b114ea8922fa7e5357401fe</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">ad-control-flow.target</qmlstring>
+        <qmlstring type="String">ad-node.qml8499508a51654b6983ddb203f164f829.qmlbd0b790dac27496ab2fcc5a38827b030</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">ad-control-flow.label</qmlstring>
+        <qmlstring type="String"/>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-control-flow.qml8499508a51654b6983ddb203f164f829</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-control-flow.qml8499508a51654b6983ddb203f164f829.qmlf9137a820ef34a39a98c01be0dc1bb41">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-control-flow</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Initial -&gt; Activity 'Home | ConformIQ'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qmlf9137a820ef34a39a98c01be0dc1bb41</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Initial -&gt; Activity 'Home | ConformIQ'</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">ad-control-flow.source</qmlstring>
+        <qmlstring type="String">ad-node.qml8499508a51654b6983ddb203f164f829.qml01693c2bf0b74850b533b34ba44dc5a6</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">ad-control-flow.target</qmlstring>
+        <qmlstring type="String">ad-node.qml8499508a51654b6983ddb203f164f829.qml88da63788b114ea8922fa7e5357401fe</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">ad-control-flow.label</qmlstring>
+        <qmlstring type="String"/>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-control-flow.qml8499508a51654b6983ddb203f164f829</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-node.qml8499508a51654b6983ddb203f164f829.qml01693c2bf0b74850b533b34ba44dc5a6">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-node</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Initial</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qml01693c2bf0b74850b533b34ba44dc5a6</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Initial</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-node.qml8499508a51654b6983ddb203f164f829</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-node.qml8499508a51654b6983ddb203f164f829.qml7fd0702e73f24326b5f2dffbf4f345f3">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-node</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Return 'End'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qml7fd0702e73f24326b5f2dffbf4f345f3</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Return 'End'</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-node.qml8499508a51654b6983ddb203f164f829</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-node.qml8499508a51654b6983ddb203f164f829.qml88da63788b114ea8922fa7e5357401fe">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-node</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Activity 'Home | ConformIQ'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qml88da63788b114ea8922fa7e5357401fe</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Activity 'Home | ConformIQ'</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-node.qml8499508a51654b6983ddb203f164f829</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:ad-node.qml8499508a51654b6983ddb203f164f829.qmlbd0b790dac27496ab2fcc5a38827b030">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">ad-node</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Activity 'Login | ConformIQ'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qmlbd0b790dac27496ab2fcc5a38827b030</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Activity 'Login | ConformIQ'</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">ad-node.qml8499508a51654b6983ddb203f164f829</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:data.!data.ad qml8499508a51654b6983ddb203f164f829 qml88da63788b114ea8922fa7e5357401fe.invocation qmle330b98e233941dcaee58dff951ce80f.value qmla7c856437f0047598b2c2c648b73bec3">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">data</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Input Constraint: 'Open URL' Action Data Value</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qmle330b98e233941dcaee58dff951ce80f</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Input Constraint: 'Open URL' Action Data Value</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">custom.data.ad qml8499508a51654b6983ddb203f164f829 qml88da63788b114ea8922fa7e5357401fe.invocation qmle330b98e233941dcaee58dff951ce80f</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:data.!data.ad qml8499508a51654b6983ddb203f164f829 qmlbd0b790dac27496ab2fcc5a38827b030.invocation qml6fc80813da644dc9b4989169c504e35a.matching qml0c98ee6ed6064cbdaeecce35c6315fb4.data _-N-GMNIVEfC_dOwU2xth8w">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">data</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Item 2: 'Item  2'</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qml6fc80813da644dc9b4989169c504e35a</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Item 2: 'Item  2'</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">custom.data.ad qml8499508a51654b6983ddb203f164f829 qmlbd0b790dac27496ab2fcc5a38827b030.invocation qml6fc80813da644dc9b4989169c504e35a.matching qml0c98ee6ed6064cbdaeecce35c6315fb4</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="checkpoint:data.!data.ad qml8499508a51654b6983ddb203f164f829 qmlbd0b790dac27496ab2fcc5a38827b030.invocation qml6fc80813da644dc9b4989169c504e35a.matching qml0c98ee6ed6064cbdaeecce35c6315fb4.data qmlde3ab448d2f64b76b980287a7c10debb">
+    <qmlarray type="[]">
+      <qmlarray type="[]">
+        <qmlstring type="String">type</qmlstring>
+        <qmlstring type="String">data</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">name</qmlstring>
+        <qmlstring type="String">Item 1: 'Item '</qmlstring>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">location</qmlstring>
+        <qmlarray type="[]">
+          <qmlarray type="[]">
+            <qmlstring type="String">SmartScanner.ad#qml6fc80813da644dc9b4989169c504e35a</qmlstring>
+            <qmlstring type="String"/>
+            <qmlstring type="String">Item 1: 'Item '</qmlstring>
+          </qmlarray>
+        </qmlarray>
+      </qmlarray>
+      <qmlarray type="[]">
+        <qmlstring type="String">group</qmlstring>
+        <qmlstring type="String">custom.data.ad qml8499508a51654b6983ddb203f164f829 qmlbd0b790dac27496ab2fcc5a38827b030.invocation qml6fc80813da644dc9b4989169c504e35a.matching qml0c98ee6ed6064cbdaeecce35c6315fb4</qmlstring>
+      </qmlarray>
+    </qmlarray>
+  </mapping>
+  <mapping key="portinfo:inbound:input_port">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <mapping key="portinfo:outbound:output_port">
+    <qmlarray type="[]">
+      </qmlarray>
+  </mapping>
+  <qmlrecordtype name="Creator_Trace_Value">
+    <fieldtype name="serialized" type="String"/>
+  </qmlrecordtype>
+  <qmlrecordtype name="External_Output">
+    </qmlrecordtype>
+  <qmlrecordtype name="Inp_action qml7b0a58b8897a4e26970a0fd2cfd30be0_Fill_Form_Action_P">
+    <fieldtype name="payload" type="Q_qml7b0a58b8897a4e26970a0fd2cfd30be0_P"/>
+  </qmlrecordtype>
+  <qmlrecordtype name="Inp_action qmla34ea35b33664685b6f9d9f8ad537a7e_Click_Action_qmle80412b83df640f9aaa189fe0b6f0073_P">
+    </qmlrecordtype>
+  <qmlrecordtype name="Inp_action qmlc10c07c9ced44995811019614337164b_Custom_Input_qmlff3c63c3635445de9dfd4bcd8d1435fd_P">
+    <fieldtype name="payload" type="Q_qmlc10c07c9ced44995811019614337164b_P"/>
+  </qmlrecordtype>
+  <qmlrecordtype name="Inp_action qmld914e13127b147159a6aef9bd0bae008_Click_Action_qml08c5f98da8014cc9b84d264e1e3a2d53_P">
+    </qmlrecordtype>
+  <qmlrecordtype name="Q_qml7b0a58b8897a4e26970a0fd2cfd30be0_P">
+    <fieldtype name="qmlb84355f8be214e2c939e70c153eb8714" type="String"/>
+    <fieldtype name="qml81333bc6715e47399be93e448f8116d1" type="String"/>
+  </qmlrecordtype>
+  <qmlrecordtype name="Q_qmlc10c07c9ced44995811019614337164b_P">
+    <fieldtype name="qmlcb667291559e4eec8d4f1b9ceb571257" type="String"/>
+  </qmlrecordtype>
+  <qmlstringtype name="String"/>
+  <qmlbooleantype name="boolean"/>
+  <qmlbooleantype name="boolean?"/>
+  <qmlnumbertype name="byte"/>
+  <qmlnumbertype name="char"/>
+  <qmlnumbertype name="char?"/>
+  <qmlnumbertype name="double"/>
+  <qmlnumbertype name="double?"/>
+  <qmlnumbertype name="float"/>
+  <qmlnumbertype name="float?"/>
+  <qmlnumbertype name="int"/>
+  <qmlnumbertype name="int?"/>
+  <qmlnumbertype name="long"/>
+  <qmlnumbertype name="long?"/>
+  <qmlnumbertype name="short"/>
+  <qmlnumbertype name="short?"/>
+</metadata>
