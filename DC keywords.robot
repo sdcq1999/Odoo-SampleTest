@@ -11,7 +11,7 @@ Home | ConformIQ SmartScanner
 
     Open Browser		${URL FIELD}		Chrome
 	Sleep  5s
-    Wait Until Element Is Visible 		${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator}     25
+    Wait Until Element Is Visible 		${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator}     5
     Click Element		${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator}     
 
 
