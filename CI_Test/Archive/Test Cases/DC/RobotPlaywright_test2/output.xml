@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.11.0 on win32)" generated="2025-12-08T21:34:15.990717" rpa="false" schemaversion="5">
+<suite id="s1" name="DC tests" source="D:\workspace\ConformIQ CI - SVN - GIT Demo\CI_Test\Test Cases\DC\RobotPlaywright_test2\DC tests.robot">
+<test id="s1-t1" name="TC_1 Home | ConformIQTC_1 Login | ConformIQ" line="11">
+<kw name="Load Excel Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:16.461211" level="INFO">${sData} = https://conformiq11.odoo.com/</msg>
+<var>${sData}</var>
+<arg>${sTestDataExcelName}</arg>
+<arg>${SheetName}</arg>
+<arg>${TestCasename}</arg>
+<arg>${TestCaseColumn}</arg>
+<arg>2</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.449790" elapsed="0.011421"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:16.462278" level="INFO">Fetched Data: https://conformiq11.odoo.com/</msg>
+<arg>Fetched Data: ${sData}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.462278" elapsed="0.000000"/>
+</kw>
+<return>
+<value>${sData}</value>
+<status status="PASS" start="2025-12-08T21:34:16.462278" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:16.462278" level="INFO">${1:URL FIELD} = https://conformiq11.odoo.com/</msg>
+<var>${1:URL FIELD}</var>
+<arg>FLOW1</arg>
+<arg>TC_1 Home | ConformIQTC_1 Login | ConformIQ</arg>
+<arg>1:URL FIELD</arg>
+<status status="PASS" start="2025-12-08T21:34:16.449790" elapsed="0.012488"/>
+</kw>
+<kw name="Home | ConformIQ SmartScanner" owner="DC keywords">
+<kw name="Load Locator Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:16.466316" level="INFO">C:\Users\suhas\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\styles\stylesheet.py:237: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")</msg>
+<msg time="2025-12-08T21:34:16.466316" level="INFO">${sLocator} = URL FIELD</msg>
+<var>${sLocator}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>${LocatorColumn}</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.462278" elapsed="0.004038"/>
+</kw>
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:16.470827" level="INFO">${sLocator_Type} = name</msg>
+<var>${sLocator_Type}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>LocatorType</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.466316" elapsed="0.004511"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:16.470827" level="INFO">${final} = name=URL FIELD</msg>
+<var>${final}</var>
+<arg>${sLocator_Type}=${sLocator}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.470827" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${sLocator_Type}' == 'name'">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:16.471886" level="INFO">${final} = xpath=//*[@name="URL FIELD"]</msg>
+<var>${final}</var>
+<arg>xpath=//*[@name="${sLocator}"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.471886" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-12-08T21:34:16.471886" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2025-12-08T21:34:16.471886" elapsed="0.000000"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:16.471886" level="INFO">Fetched Locator: xpath=//*[@name="URL FIELD"]</msg>
+<arg>Fetched Locator: ${final}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.471886" elapsed="0.000000"/>
+</kw>
+<return>
+<value>${final}</value>
+<status status="PASS" start="2025-12-08T21:34:16.471886" elapsed="0.001784"/>
+</return>
+<msg time="2025-12-08T21:34:16.473670" level="INFO">${PERFORM Open URL-URL FIELD_locator} = xpath=//*[@name="URL FIELD"]</msg>
+<var>${PERFORM Open URL-URL FIELD_locator}</var>
+<arg>Objects</arg>
+<arg>PERFORM Open URL-URL FIELD_locator</arg>
+<arg>Locator</arg>
+<status status="PASS" start="2025-12-08T21:34:16.462278" elapsed="0.011392"/>
+</kw>
+<kw name="Load Locator Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:16.474697" level="INFO">${sLocator} = //a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']</msg>
+<var>${sLocator}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>${LocatorColumn}</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.474697" elapsed="0.000000"/>
+</kw>
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:16.474697" level="INFO">${sLocator_Type} = xpath</msg>
+<var>${sLocator_Type}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>LocatorType</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.474697" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:16.475988" level="INFO">${final} = xpath=//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']</msg>
+<var>${final}</var>
+<arg>${sLocator_Type}=${sLocator}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.474697" elapsed="0.001291"/>
+</kw>
+<if>
+<branch type="IF" condition="'${sLocator_Type}' == 'name'">
+<kw name="Set Variable" owner="BuiltIn">
+<var>${final}</var>
+<arg>xpath=//*[@name="${sLocator}"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-12-08T21:34:16.476507" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2025-12-08T21:34:16.475988" elapsed="0.000519"/>
+</branch>
+<status status="PASS" start="2025-12-08T21:34:16.475988" elapsed="0.000519"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:16.476507" level="INFO">Fetched Locator: xpath=//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']</msg>
+<arg>Fetched Locator: ${final}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.476507" elapsed="0.000000"/>
+</kw>
+<return>
+<value>${final}</value>
+<status status="PASS" start="2025-12-08T21:34:16.476507" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:16.476507" level="INFO">${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator} = xpath=//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']</msg>
+<var>${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator}</var>
+<arg>Objects</arg>
+<arg>Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator</arg>
+<arg>Locator</arg>
+<status status="PASS" start="2025-12-08T21:34:16.473670" elapsed="0.002837"/>
+</kw>
+<kw name="Open Browser" owner="Browser">
+<msg time="2025-12-08T21:34:16.478254" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-12-08T21:34:16.478254" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "D:\\workspace\\ConformIQ CI - SVN - GIT Demo\\CI_Test\\Test Cases\\DC\\RobotPlaywright_test2\\browser\\traces\\temp\\5003b914-edd6-4f6b-8ca8-ac2cff2458df"}</msg>
+<msg time="2025-12-08T21:34:16.510052" level="INFO">Starting Browser process C:\Users\suhas\AppData\Local\Programs\Python\Python311\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:59776</msg>
+<msg time="2025-12-08T21:34:17.923660" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"D:\\workspace\\ConformIQ CI - SVN - GIT Demo\\CI_Test\\Test Cases\\DC\\RobotPlaywright_test2\\browser\\traces\\temp\\5003b914-edd6-4f6b-8ca8-ac2cff2458df"}</msg>
+<msg time="2025-12-08T21:34:17.923660" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2025-12-08T21:34:17.956949" level="INFO">Successfully created context. </msg>
+<msg time="2025-12-08T21:34:17.956949" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2025-12-08T21:34:19.981687" level="INFO">Successfully initialized new page object and opened url: https://conformiq11.odoo.com/</msg>
+<arg>${URL FIELD}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2025-12-08T21:34:16.476507" elapsed="3.505180"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-12-08T21:34:20.044733" level="INFO">Waited for Element with selector xpath=//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login'] at state visible</msg>
+<arg>${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-12-08T21:34:19.981687" elapsed="0.063046"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-12-08T21:34:20.046060" level="INFO">Clicks the element 'xpath=//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']'.</msg>
+<arg>${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.044733" elapsed="0.250351"/>
+</kw>
+<arg>${1:URL FIELD}</arg>
+<status status="PASS" start="2025-12-08T21:34:16.462278" elapsed="3.832806"/>
+</kw>
+<kw name="Load Excel Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:20.296505" level="INFO">${sData} = suhas.deshpande@conformiq.com</msg>
+<var>${sData}</var>
+<arg>${sTestDataExcelName}</arg>
+<arg>${SheetName}</arg>
+<arg>${TestCasename}</arg>
+<arg>${TestCaseColumn}</arg>
+<arg>2</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.296505" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:20.296505" level="INFO">Fetched Data: suhas.deshpande@conformiq.com</msg>
+<arg>Fetched Data: ${sData}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.296505" elapsed="0.000000"/>
+</kw>
+<return>
+<value>${sData}</value>
+<status status="PASS" start="2025-12-08T21:34:20.296505" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:20.296505" level="INFO">${2:login TEXTBOX} = suhas.deshpande@conformiq.com</msg>
+<var>${2:login TEXTBOX}</var>
+<arg>FLOW1</arg>
+<arg>TC_1 Home | ConformIQTC_1 Login | ConformIQ</arg>
+<arg>2:login TEXTBOX</arg>
+<status status="PASS" start="2025-12-08T21:34:20.296505" elapsed="0.000000"/>
+</kw>
+<kw name="Load Excel Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:20.296505" level="INFO">${sData} = Timetravel@1999</msg>
+<var>${sData}</var>
+<arg>${sTestDataExcelName}</arg>
+<arg>${SheetName}</arg>
+<arg>${TestCasename}</arg>
+<arg>${TestCaseColumn}</arg>
+<arg>2</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.296505" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:20.300701" level="INFO">Fetched Data: Timetravel@1999</msg>
+<arg>Fetched Data: ${sData}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.296505" elapsed="0.004196"/>
+</kw>
+<return>
+<value>${sData}</value>
+<status status="PASS" start="2025-12-08T21:34:20.300701" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:20.300701" level="INFO">${2:password TEXTBOX} = Timetravel@1999</msg>
+<var>${2:password TEXTBOX}</var>
+<arg>FLOW1</arg>
+<arg>TC_1 Home | ConformIQTC_1 Login | ConformIQ</arg>
+<arg>2:password TEXTBOX</arg>
+<status status="PASS" start="2025-12-08T21:34:20.296505" elapsed="0.004196"/>
+</kw>
+<kw name="Login | ConformIQ SmartScanner" owner="DC keywords">
+<kw name="Load Locator Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:20.302052" level="INFO">${sLocator} = //input[@id='login' and @name='login']</msg>
+<var>${sLocator}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>${LocatorColumn}</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</kw>
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:20.302052" level="INFO">${sLocator_Type} = xpath</msg>
+<var>${sLocator_Type}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>LocatorType</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:20.302052" level="INFO">${final} = xpath=//input[@id='login' and @name='login']</msg>
+<var>${final}</var>
+<arg>${sLocator_Type}=${sLocator}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${sLocator_Type}' == 'name'">
+<kw name="Set Variable" owner="BuiltIn">
+<var>${final}</var>
+<arg>xpath=//*[@name="${sLocator}"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:20.302052" level="INFO">Fetched Locator: xpath=//input[@id='login' and @name='login']</msg>
+<arg>Fetched Locator: ${final}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</kw>
+<return>
+<value>${final}</value>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:20.302052" level="INFO">${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMloginTEXTBOX_locator} = xpath=//input[@id='login' and @name='login']</msg>
+<var>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMloginTEXTBOX_locator}</var>
+<arg>Objects</arg>
+<arg>Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMloginTEXTBOX_locator</arg>
+<arg>Locator</arg>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</kw>
+<kw name="Load Locator Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:20.302052" level="INFO">${sLocator} = //input[@id='password' and @name='password']</msg>
+<var>${sLocator}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>${LocatorColumn}</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</kw>
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:20.302052" level="INFO">${sLocator_Type} = xpath</msg>
+<var>${sLocator_Type}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>LocatorType</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:20.302052" level="INFO">${final} = xpath=//input[@id='password' and @name='password']</msg>
+<var>${final}</var>
+<arg>${sLocator_Type}=${sLocator}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${sLocator_Type}' == 'name'">
+<kw name="Set Variable" owner="BuiltIn">
+<var>${final}</var>
+<arg>xpath=//*[@name="${sLocator}"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.000000"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:20.308578" level="INFO">Fetched Locator: xpath=//input[@id='password' and @name='password']</msg>
+<arg>Fetched Locator: ${final}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.006526"/>
+</kw>
+<return>
+<value>${final}</value>
+<status status="PASS" start="2025-12-08T21:34:20.308578" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:20.308578" level="INFO">${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMpasswordTEXTBOX_locator} = xpath=//input[@id='password' and @name='password']</msg>
+<var>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMpasswordTEXTBOX_locator}</var>
+<arg>Objects</arg>
+<arg>Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMpasswordTEXTBOX_locator</arg>
+<arg>Locator</arg>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="0.006526"/>
+</kw>
+<kw name="Load Locator Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:20.308578" level="INFO">${sLocator} = //button[@class='btn btn-primary']</msg>
+<var>${sLocator}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>${LocatorColumn}</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.308578" elapsed="0.000000"/>
+</kw>
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:20.311097" level="INFO">${sLocator_Type} = xpath</msg>
+<var>${sLocator_Type}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>LocatorType</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.308578" elapsed="0.002519"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:20.311097" level="INFO">${final} = xpath=//button[@class='btn btn-primary']</msg>
+<var>${final}</var>
+<arg>${sLocator_Type}=${sLocator}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.311097" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${sLocator_Type}' == 'name'">
+<kw name="Set Variable" owner="BuiltIn">
+<var>${final}</var>
+<arg>xpath=//*[@name="${sLocator}"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-12-08T21:34:20.311097" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2025-12-08T21:34:20.311097" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2025-12-08T21:34:20.311097" elapsed="0.000000"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:20.311097" level="INFO">Fetched Locator: xpath=//button[@class='btn btn-primary']</msg>
+<arg>Fetched Locator: ${final}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.311097" elapsed="0.000000"/>
+</kw>
+<return>
+<value>${final}</value>
+<status status="PASS" start="2025-12-08T21:34:20.311097" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:20.311097" level="INFO">${Login | ConformIQ-Login | ConformIQSCREENLog inBUTTON_locator} = xpath=//button[@class='btn btn-primary']</msg>
+<var>${Login | ConformIQ-Login | ConformIQSCREENLog inBUTTON_locator}</var>
+<arg>Objects</arg>
+<arg>Login | ConformIQ-Login | ConformIQSCREENLog inBUTTON_locator</arg>
+<arg>Locator</arg>
+<status status="PASS" start="2025-12-08T21:34:20.308578" elapsed="0.002519"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-12-08T21:34:20.684510" level="INFO">Waited for Element with selector xpath=//input[@id='login' and @name='login'] at state visible</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMloginTEXTBOX_locator}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.311097" elapsed="0.375484"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-12-08T21:34:20.687101" level="INFO">Fills the text 'suhas.deshpande@conformiq.com' in the given field.</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMloginTEXTBOX_locator}</arg>
+<arg>${login TEXTBOX}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.686581" elapsed="0.017094"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-12-08T21:34:20.719951" level="INFO">Waited for Element with selector xpath=//input[@id='password' and @name='password'] at state visible</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMpasswordTEXTBOX_locator}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.703675" elapsed="0.016276"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-12-08T21:34:20.721236" level="INFO">Fills the text 'Timetravel@1999' in the given field.</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMpasswordTEXTBOX_locator}</arg>
+<arg>${password TEXTBOX}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.721236" elapsed="0.026922"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-12-08T21:34:20.762576" level="INFO">Waited for Element with selector xpath=//button[@class='btn btn-primary'] at state visible</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLog inBUTTON_locator}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.748158" elapsed="0.014418"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-12-08T21:34:20.762576" level="INFO">Clicks the element 'xpath=//button[@class='btn btn-primary']'.</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLog inBUTTON_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-12-08T21:34:20.762576" elapsed="2.002231"/>
+</kw>
+<arg>${2:login TEXTBOX}</arg>
+<arg>${2:password TEXTBOX}</arg>
+<status status="PASS" start="2025-12-08T21:34:20.302052" elapsed="2.462755"/>
+</kw>
+<msg time="2025-12-08T21:34:22.797387" level="INFO">Switching context to context=1810b377-c8c1-4e56-91b2-802b43567090 in CURRENT</msg>
+<msg time="2025-12-08T21:34:22.811316" level="INFO">Successfully changed active context: context=1810b377-c8c1-4e56-91b2-802b43567090</msg>
+<msg time="2025-12-08T21:34:22.839290" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-12-08T21:34:16.449790" elapsed="6.315017"/>
+</test>
+<test id="s1-t2" name="TC_1 Home | ConformIQTC_1 Login | ConformIQ [2]" line="17">
+<kw name="Load Excel Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:22.849952" level="INFO">${sData} = https://conformiq11.odoo.com/</msg>
+<var>${sData}</var>
+<arg>${sTestDataExcelName}</arg>
+<arg>${SheetName}</arg>
+<arg>${TestCasename}</arg>
+<arg>${TestCaseColumn}</arg>
+<arg>2</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.842598" elapsed="0.007354"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:22.849952" level="INFO">Fetched Data: https://conformiq11.odoo.com/</msg>
+<arg>Fetched Data: ${sData}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.849952" elapsed="0.000000"/>
+</kw>
+<return>
+<value>${sData}</value>
+<status status="PASS" start="2025-12-08T21:34:22.849952" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:22.854026" level="INFO">${1:URL FIELD} = https://conformiq11.odoo.com/</msg>
+<var>${1:URL FIELD}</var>
+<arg>FLOW1</arg>
+<arg>TC_1 Home | ConformIQTC_1 Login | ConformIQ [2]</arg>
+<arg>1:URL FIELD</arg>
+<status status="PASS" start="2025-12-08T21:34:22.842598" elapsed="0.011428"/>
+</kw>
+<kw name="Home | ConformIQ SmartScanner" owner="DC keywords">
+<kw name="Load Locator Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:22.862509" level="INFO">${sLocator} = URL FIELD</msg>
+<var>${sLocator}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>${LocatorColumn}</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.854026" elapsed="0.008483"/>
+</kw>
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:22.864146" level="INFO">${sLocator_Type} = name</msg>
+<var>${sLocator_Type}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>LocatorType</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.862509" elapsed="0.001637"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:22.865697" level="INFO">${final} = name=URL FIELD</msg>
+<var>${final}</var>
+<arg>${sLocator_Type}=${sLocator}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.865697" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${sLocator_Type}' == 'name'">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:22.865697" level="INFO">${final} = xpath=//*[@name="URL FIELD"]</msg>
+<var>${final}</var>
+<arg>xpath=//*[@name="${sLocator}"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.865697" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-12-08T21:34:22.865697" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2025-12-08T21:34:22.865697" elapsed="0.000000"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:22.869016" level="INFO">Fetched Locator: xpath=//*[@name="URL FIELD"]</msg>
+<arg>Fetched Locator: ${final}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.865697" elapsed="0.003319"/>
+</kw>
+<return>
+<value>${final}</value>
+<status status="PASS" start="2025-12-08T21:34:22.869016" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:22.869016" level="INFO">${PERFORM Open URL-URL FIELD_locator} = xpath=//*[@name="URL FIELD"]</msg>
+<var>${PERFORM Open URL-URL FIELD_locator}</var>
+<arg>Objects</arg>
+<arg>PERFORM Open URL-URL FIELD_locator</arg>
+<arg>Locator</arg>
+<status status="PASS" start="2025-12-08T21:34:22.854026" elapsed="0.014990"/>
+</kw>
+<kw name="Load Locator Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:22.871129" level="INFO">${sLocator} = //a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']</msg>
+<var>${sLocator}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>${LocatorColumn}</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.869016" elapsed="0.002113"/>
+</kw>
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:22.871129" level="INFO">${sLocator_Type} = xpath</msg>
+<var>${sLocator_Type}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>LocatorType</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.871129" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:22.871129" level="INFO">${final} = xpath=//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']</msg>
+<var>${final}</var>
+<arg>${sLocator_Type}=${sLocator}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.871129" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${sLocator_Type}' == 'name'">
+<kw name="Set Variable" owner="BuiltIn">
+<var>${final}</var>
+<arg>xpath=//*[@name="${sLocator}"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-12-08T21:34:22.871129" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2025-12-08T21:34:22.871129" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2025-12-08T21:34:22.871129" elapsed="0.000000"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:22.871129" level="INFO">Fetched Locator: xpath=//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']</msg>
+<arg>Fetched Locator: ${final}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.871129" elapsed="0.000000"/>
+</kw>
+<return>
+<value>${final}</value>
+<status status="PASS" start="2025-12-08T21:34:22.871129" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:22.871129" level="INFO">${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator} = xpath=//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']</msg>
+<var>${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator}</var>
+<arg>Objects</arg>
+<arg>Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator</arg>
+<arg>Locator</arg>
+<status status="PASS" start="2025-12-08T21:34:22.869016" elapsed="0.002113"/>
+</kw>
+<kw name="Open Browser" owner="Browser">
+<msg time="2025-12-08T21:34:22.876147" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-12-08T21:34:22.876147" level="INFO">Switching browser to browser=15fac661-1306-44d5-b2da-e82caf980bd5</msg>
+<msg time="2025-12-08T21:34:22.879173" level="INFO">Successfully changed active browser: browser=15fac661-1306-44d5-b2da-e82caf980bd5</msg>
+<msg time="2025-12-08T21:34:22.881688" level="INFO">Reusing existing browser with id: browser=15fac661-1306-44d5-b2da-e82caf980bd5</msg>
+<msg time="2025-12-08T21:34:22.883278" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2025-12-08T21:34:22.897300" level="INFO">Successfully created context. </msg>
+<msg time="2025-12-08T21:34:22.897300" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2025-12-08T21:34:24.204468" level="INFO">Successfully initialized new page object and opened url: https://conformiq11.odoo.com/</msg>
+<arg>${URL FIELD}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2025-12-08T21:34:22.871129" elapsed="1.333339"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-12-08T21:34:24.238347" level="INFO">Waited for Element with selector xpath=//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login'] at state visible</msg>
+<arg>${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.204468" elapsed="0.033879"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-12-08T21:34:24.238347" level="INFO">Clicks the element 'xpath=//a[@class='o_nav_link_btn nav-link border px-3' and @href='/web/login']'.</msg>
+<arg>${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.238347" elapsed="0.136663"/>
+</kw>
+<arg>${1:URL FIELD}</arg>
+<status status="PASS" start="2025-12-08T21:34:22.854026" elapsed="1.520984"/>
+</kw>
+<kw name="Load Excel Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:24.375010" level="INFO">${sData} = invalid</msg>
+<var>${sData}</var>
+<arg>${sTestDataExcelName}</arg>
+<arg>${SheetName}</arg>
+<arg>${TestCasename}</arg>
+<arg>${TestCaseColumn}</arg>
+<arg>2</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.375010" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:24.375010" level="INFO">Fetched Data: invalid</msg>
+<arg>Fetched Data: ${sData}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.375010" elapsed="0.000000"/>
+</kw>
+<return>
+<value>${sData}</value>
+<status status="PASS" start="2025-12-08T21:34:24.375010" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:24.379971" level="INFO">${2:login TEXTBOX} = invalid</msg>
+<var>${2:login TEXTBOX}</var>
+<arg>FLOW1</arg>
+<arg>TC_1 Home | ConformIQTC_1 Login | ConformIQ [2]</arg>
+<arg>2:login TEXTBOX</arg>
+<status status="PASS" start="2025-12-08T21:34:24.375010" elapsed="0.004961"/>
+</kw>
+<kw name="Load Excel Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:24.381063" level="INFO">${sData} = invalid</msg>
+<var>${sData}</var>
+<arg>${sTestDataExcelName}</arg>
+<arg>${SheetName}</arg>
+<arg>${TestCasename}</arg>
+<arg>${TestCaseColumn}</arg>
+<arg>2</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.381063" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:24.382773" level="INFO">Fetched Data: invalid</msg>
+<arg>Fetched Data: ${sData}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.382259" elapsed="0.000514"/>
+</kw>
+<return>
+<value>${sData}</value>
+<status status="PASS" start="2025-12-08T21:34:24.382773" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:24.382773" level="INFO">${2:password TEXTBOX} = invalid</msg>
+<var>${2:password TEXTBOX}</var>
+<arg>FLOW1</arg>
+<arg>TC_1 Home | ConformIQTC_1 Login | ConformIQ [2]</arg>
+<arg>2:password TEXTBOX</arg>
+<status status="PASS" start="2025-12-08T21:34:24.379971" elapsed="0.002802"/>
+</kw>
+<kw name="Login | ConformIQ SmartScanner" owner="DC keywords">
+<kw name="Load Locator Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:24.386070" level="INFO">${sLocator} = //input[@id='login' and @name='login']</msg>
+<var>${sLocator}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>${LocatorColumn}</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.386070" elapsed="0.000000"/>
+</kw>
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:24.388165" level="INFO">${sLocator_Type} = xpath</msg>
+<var>${sLocator_Type}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>LocatorType</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.386070" elapsed="0.002095"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:24.388674" level="INFO">${final} = xpath=//input[@id='login' and @name='login']</msg>
+<var>${final}</var>
+<arg>${sLocator_Type}=${sLocator}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.388674" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${sLocator_Type}' == 'name'">
+<kw name="Set Variable" owner="BuiltIn">
+<var>${final}</var>
+<arg>xpath=//*[@name="${sLocator}"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-12-08T21:34:24.388674" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2025-12-08T21:34:24.388674" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2025-12-08T21:34:24.388674" elapsed="0.000000"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:24.390827" level="INFO">Fetched Locator: xpath=//input[@id='login' and @name='login']</msg>
+<arg>Fetched Locator: ${final}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.388674" elapsed="0.002153"/>
+</kw>
+<return>
+<value>${final}</value>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:24.390827" level="INFO">${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMloginTEXTBOX_locator} = xpath=//input[@id='login' and @name='login']</msg>
+<var>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMloginTEXTBOX_locator}</var>
+<arg>Objects</arg>
+<arg>Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMloginTEXTBOX_locator</arg>
+<arg>Locator</arg>
+<status status="PASS" start="2025-12-08T21:34:24.386020" elapsed="0.004807"/>
+</kw>
+<kw name="Load Locator Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:24.390827" level="INFO">${sLocator} = //input[@id='password' and @name='password']</msg>
+<var>${sLocator}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>${LocatorColumn}</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</kw>
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:24.390827" level="INFO">${sLocator_Type} = xpath</msg>
+<var>${sLocator_Type}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>LocatorType</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:24.390827" level="INFO">${final} = xpath=//input[@id='password' and @name='password']</msg>
+<var>${final}</var>
+<arg>${sLocator_Type}=${sLocator}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</kw>
+<if>
+<branch type="IF" condition="'${sLocator_Type}' == 'name'">
+<kw name="Set Variable" owner="BuiltIn">
+<var>${final}</var>
+<arg>xpath=//*[@name="${sLocator}"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:24.390827" level="INFO">Fetched Locator: xpath=//input[@id='password' and @name='password']</msg>
+<arg>Fetched Locator: ${final}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</kw>
+<return>
+<value>${final}</value>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:24.390827" level="INFO">${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMpasswordTEXTBOX_locator} = xpath=//input[@id='password' and @name='password']</msg>
+<var>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMpasswordTEXTBOX_locator}</var>
+<arg>Objects</arg>
+<arg>Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMpasswordTEXTBOX_locator</arg>
+<arg>Locator</arg>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</kw>
+<kw name="Load Locator Data" owner="Conformiq RobotFwk Utils library">
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:24.390827" level="INFO">${sLocator} = //button[@class='btn btn-primary']</msg>
+<var>${sLocator}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>${LocatorColumn}</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</kw>
+<kw name="Get Test Data Cell" owner="ExcelDataHandler">
+<msg time="2025-12-08T21:34:24.390827" level="INFO">${sLocator_Type} = xpath</msg>
+<var>${sLocator_Type}</var>
+<arg>${sFileName}</arg>
+<arg>${ObjectSheetName}</arg>
+<arg>${ObjectName}</arg>
+<arg>LocatorType</arg>
+<arg>1</arg>
+<doc>Reads a specific cell value based on a TestCase name and Column header.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-12-08T21:34:24.396349" level="INFO">${final} = xpath=//button[@class='btn btn-primary']</msg>
+<var>${final}</var>
+<arg>${sLocator_Type}=${sLocator}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.005522"/>
+</kw>
+<if>
+<branch type="IF" condition="'${sLocator_Type}' == 'name'">
+<kw name="Set Variable" owner="BuiltIn">
+<var>${final}</var>
+<arg>xpath=//*[@name="${sLocator}"]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2025-12-08T21:34:24.396548" elapsed="0.000000"/>
+</kw>
+<status status="NOT RUN" start="2025-12-08T21:34:24.396548" elapsed="0.000000"/>
+</branch>
+<status status="PASS" start="2025-12-08T21:34:24.396349" elapsed="0.000199"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-12-08T21:34:24.396548" level="INFO">Fetched Locator: xpath=//button[@class='btn btn-primary']</msg>
+<arg>Fetched Locator: ${final}</arg>
+<arg>console=yes</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.396548" elapsed="0.000000"/>
+</kw>
+<return>
+<value>${final}</value>
+<status status="PASS" start="2025-12-08T21:34:24.396548" elapsed="0.000000"/>
+</return>
+<msg time="2025-12-08T21:34:24.396548" level="INFO">${Login | ConformIQ-Login | ConformIQSCREENLog inBUTTON_locator} = xpath=//button[@class='btn btn-primary']</msg>
+<var>${Login | ConformIQ-Login | ConformIQSCREENLog inBUTTON_locator}</var>
+<arg>Objects</arg>
+<arg>Login | ConformIQ-Login | ConformIQSCREENLog inBUTTON_locator</arg>
+<arg>Locator</arg>
+<status status="PASS" start="2025-12-08T21:34:24.390827" elapsed="0.005721"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-12-08T21:34:25.304800" level="INFO">Waited for Element with selector xpath=//input[@id='login' and @name='login'] at state visible</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMloginTEXTBOX_locator}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-12-08T21:34:24.396548" elapsed="0.908252"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-12-08T21:34:25.304800" level="INFO">Fills the text 'invalid' in the given field.</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMloginTEXTBOX_locator}</arg>
+<arg>${login TEXTBOX}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-12-08T21:34:25.304800" elapsed="0.013559"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-12-08T21:34:25.333913" level="INFO">Waited for Element with selector xpath=//input[@id='password' and @name='password'] at state visible</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMpasswordTEXTBOX_locator}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-12-08T21:34:25.318359" elapsed="0.016801"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-12-08T21:34:25.336552" level="INFO">Fills the text 'invalid' in the given field.</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLogin | ConformIQ_FORMFORMpasswordTEXTBOX_locator}</arg>
+<arg>${password TEXTBOX}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-12-08T21:34:25.335160" elapsed="0.021385"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-12-08T21:34:25.367395" level="INFO">Waited for Element with selector xpath=//button[@class='btn btn-primary'] at state visible</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLog inBUTTON_locator}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-12-08T21:34:25.356545" elapsed="0.010850"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-12-08T21:34:25.368849" level="INFO">Clicks the element 'xpath=//button[@class='btn btn-primary']'.</msg>
+<arg>${Login | ConformIQ-Login | ConformIQSCREENLog inBUTTON_locator}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-12-08T21:34:25.368849" elapsed="0.181141"/>
+</kw>
+<arg>${2:login TEXTBOX}</arg>
+<arg>${2:password TEXTBOX}</arg>
+<status status="PASS" start="2025-12-08T21:34:24.384003" elapsed="1.165987"/>
+</kw>
+<msg time="2025-12-08T21:34:25.672044" level="INFO">Switching context to context=7d510b21-e303-40ed-941c-0e15d8456d34 in CURRENT</msg>
+<msg time="2025-12-08T21:34:25.698862" level="INFO">Successfully changed active context: context=7d510b21-e303-40ed-941c-0e15d8456d34</msg>
+<msg time="2025-12-08T21:34:25.723166" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-12-08T21:34:22.840344" elapsed="2.712757"/>
+</test>
+<doc>WARNING! This file has been automatically generated using the Conformiq &lt;Robot Framework Scripter&gt; scripting backend. PLEASE DO NOT EDIT.</doc>
+<status status="PASS" start="2025-12-08T21:34:15.993435" elapsed="9.733102"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="DC tests" id="s1" pass="2" fail="0" skip="0">DC tests</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-12-08T21:34:16.478254" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-12-08T21:34:22.876147" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+</errors>
+</robot>

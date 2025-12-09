@@ -18,13 +18,13 @@ pipeline {
             }
         }
         
-        stage('Run Conformiq-Generated Tests') {
-            steps {
-                echo 'Executing Robot Framework tests against Parabank (using python -m robot)...'
-                // We are now explicitly running the 'robot' module via 'python'
-                bat 'python -m robot --outputdir robot-results "Robot_Tests/DC tests.robot"'
-            }
-        }
+       stage('Run Conformiq-Generated Tests') {
+			steps {
+				echo 'Executing Robot Framework tests...'
+				// The path starts with CI_Test because that is the first folder inside the Git root
+				bat 'python -m robot --outputdir robot-results "CI_Test/Test Cases/DC 2/RobotFramework_081225/DC tests.robot"'
+			}
+		}
         
         stage('Quality Gate & Reporting') {
             steps {

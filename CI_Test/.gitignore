@@ -1,3 +1,5 @@
 /.bphits-database
 /.database
 /.stable-model/
+/.metadata
+/.tmp-model/

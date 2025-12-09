@@ -10,7 +10,7 @@ Home | ConformIQ SmartScanner
 
 
 
-    Element Should Contain		${PERFORM Open URL-URL FIELD_locator}     ${URL FIELD}URL FIELD     
+    Open Browser		${URL FIELD}    
     Wait For Elements State 		${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator}     visible
     Click		${Home | ConformIQ-Home | ConformIQSCREENHome | ConformIQSCREENSign inHYPERLINK_locator}     
 

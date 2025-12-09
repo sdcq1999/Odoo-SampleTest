@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.conformiq:ConformiqProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq="http://www.conformiq.com/models/3/project" propertiesVersion="1001">
   <designConfigurations name="DC" id="564b4801f5207619aa8f38006406f0ee">
-    <scripterConfigurations jarPath="G:/Shared drives/Temp - To be Sorted or Deleted/scripter/AutomationScripter_08122025.jar" pluginName="AutomationScripter_08122025" enabled="true">
+    <scripterConfigurations jarPath="G:/Shared drives/Temp - To be Sorted or Deleted/scripter/AutomationScripter_08122025.jar" pluginName="AutomationScripter_08122025">
       <scripterPropertyCategories name="Main">
         <categoryProperties key="Output Folder" value="AutomationScripter"/>
         <categoryProperties key="GUI action automation mapping" value="GUI action automation mapping.xls"/>
@@ -16,7 +16,7 @@
     </scripterConfigurations>
     <scripterConfigurations jarPath="C:/Users/suhas/Downloads/RobotPlaywrightScripter_1.0.jar" pluginName="RobotPlaywrightScripter_1.0" enabled="true" sequenceNumber="1">
       <scripterPropertyCategories name="Main">
-        <categoryProperties key="Output Folder" value="RobotPlaywright"/>
+        <categoryProperties key="Output Folder" value="RobotPlaywright_test2"/>
         <categoryProperties key="GUI action automation mapping" value="GUI action automation mapping.xls"/>
         <categoryProperties key="Natural language automation mapping" value="Natural language automation mapping.xls"/>
         <categoryProperties key="Test data externalization" value="true"/>
@@ -37,10 +37,10 @@
   <designConfigurations name="DC 2" id="db2e25a09ac960a215fd05984d83eb0c">
     <scripterConfigurations jarPath="Conformiq_Designer/RobotFrameworkScripter.jar" pluginName="RobotFrameworkScripter" enabled="true">
       <scripterPropertyCategories name="Main">
-        <categoryProperties key="Output Folder" value="RobotFramework"/>
+        <categoryProperties key="Output Folder" value="RobotFramework_081225"/>
         <categoryProperties key="GUI action automation mapping" value="GUI action automation mapping.xls"/>
         <categoryProperties key="Natural language automation mapping" value="Natural language automation mapping.xls"/>
-        <categoryProperties key="Test data externalization" value="false"/>
+        <categoryProperties key="Test data externalization" value="true"/>
         <categoryProperties key="Disable export of widget status verification" value="true"/>
         <categoryProperties key="Disable initial check in components for GUI object existence" value="true"/>
         <categoryProperties key="Disable export of don't care data widget and field verifications" value="true"/>
